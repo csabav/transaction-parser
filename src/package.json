@@ -1,0 +1,30 @@
+{
+  "name": "transaction-parser",
+  "version": "1.0.0",
+  "description": "Transaction Parser",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Viktor Csaba <viktorcsaba94@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.7",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "ajv": "^7.1.0",
+    "ajv-formats": "^2.1.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.0",
+    "uuid-mongodb": "^2.4.4",
+    "winston": "^3.3.3"
+  }
+}
